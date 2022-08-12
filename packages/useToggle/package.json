@@ -1,12 +1,12 @@
 {
-  "name": "use-toggle",
+  "name": "@hulkhooks/use-toggle",
   "version": "1.0.0",
   "description": "A simple hook to toggle a boolean value",
   "license": "MIT",
   "source": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/projectashik/hulkhooks/packages/useToggle"
+    "url": "https://github.com/projectashik/hulkhooks/packages/useToggle"
   },
   "keywords": [
     "react-useToggle",
