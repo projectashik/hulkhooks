@@ -1,0 +1,47 @@
+{
+  "name": "@hulkhooks/use-prefers-reduced-motion",
+  "version": "1.0.1",
+  "description": "You can trigger animation based on user preferences",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectashik/hulkhooks.git",
+    "directory": "packages/use-prefers-reduced-motion"
+  },
+  "keywords": [
+    "react-use-prefers-reduced-motion",
+    "use-prefers-reduced-motion",
+    "usePrefersReducedMotion",
+    "react-custom-hook",
+    "react-hook"
+  ],
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.mjs"
+  },
+  "publishConfig": {
+    "source": "src/index.ts",
+    "main": "dist/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle src/index.ts",
+    "dev": "microbundle src/index.ts --watch"
+  },
+  "homepage": "https://github.com/projectashik/hulkhooks/tree/main/packages/use-prefers-reduced-motion",
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "microbundle": "^0.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}
